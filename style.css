@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+body{ 
+    background-color: rgb(191, 158, 221);
+}
+header{
+    border: 5px solid green;
+    padding: 0px;
+    margin: 0px;
+}
+[style]{
+    font-style: italic;
+    color: rgb(53, 151, 151);
+}
+main{
+    border: 3px solid red;
+    padding: 0px;
+    margin: 0px;
+}
+h1,h2{
+    text-align: center;
+}
+h2[id="O-nama"]{
+    color: rgb(157, 65, 65);
+}
+[class^=onama]{
+    transform: rotatex(180deg);
+}
+[class|=onama]{
+    background-color: yellowgreen;
+}
+section.djel{
+    text-decoration: underline;
+}
+[name*="še-dj"]{
+    font-weight: 700;
+}
+/*sadrzi rijec */
+[class~="nas"]{
+       border-radius: 80%;
+       overflow: hidden;
+}
+[href]{
+    font-style: italic;
+}
+[href]{
+    font-size: 20px;
+}
+[class$=head]{
+    transform: rotateY(180deg);
+}
