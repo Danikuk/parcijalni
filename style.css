@@ -7,7 +7,7 @@ body{
     background-color: rgb(191, 158, 221);
 }
 header{
-    border: 5px solid green;
+    border: 5px solid hotpink;
     padding: 0px;
     margin: 0px;
 }
@@ -15,15 +15,18 @@ header{
     font-style: italic;
     color: rgb(53, 151, 151);
 }
+section.nas{
+    color: rgb(21, 21, 230);
+}
 main{
     border: 3px solid red;
     padding: 0px;
     margin: 0px;
 }
-h1,h2{
+h1,h2,p{
     text-align: center;
 }
-h2[id="O-nama"]{
+h2[id="Onama"]{
     color: rgb(157, 65, 65);
 }
 [class^=onama]{
@@ -49,6 +52,24 @@ section.djel{
 [href]{
     font-size: 20px;
 }
-[class$=head]{
+[class$="Kontakt"]{
     transform: rotateY(180deg);
+}
+#message{
+    color: red;
+}
+.kontaktirajte-nas{
+    text-align: center;
+    font-style: italic;
+    color: rgb(26, 36, 7);
+}
+section.djel{
+    border: dashed yellow;
+
+}
+section.onama{
+    border: dashed orangered;
+} 
+section.kontaktirajte-nas{
+    border: solid rgb(236, 123, 142);
 }
