@@ -7,8 +7,8 @@ body{
     background-color: rgb(191, 158, 221);
 }
 header{
-    border: 5px solid hotpink;
-    padding: 0px;
+    border: 5px solid rgb(204, 7, 106);
+    padding: 10px;
     margin: 0px;
 }
 [style]{
@@ -28,20 +28,16 @@ h1,h2,p{
 }
 h2[id="Onama"]{
     color: rgb(157, 65, 65);
-}
-[class^=onama]{
-    transform: rotatex(180deg);
-}
-[class|=onama]{
-    background-color: yellowgreen;
+    padding: 15px;
 }
 section.djel{
     text-decoration: underline;
+    padding: 15px;
 }
 [name*="še-dj"]{
     font-weight: 700;
 }
-/*sadrzi rijec */
+
 [class~="nas"]{
        border-radius: 80%;
        overflow: hidden;
@@ -49,15 +45,12 @@ section.djel{
 [href]{
     font-style: italic;
 }
-[href]{
-    font-size: 20px;
-}
-[class$="Kontakt"]{
-    transform: rotateY(180deg);
-}
+
 #message{
     color: red;
+    padding: 15px;
 }
+
 .kontaktirajte-nas{
     text-align: center;
     font-style: italic;
@@ -65,11 +58,12 @@ section.djel{
 }
 section.djel{
     border: dashed yellow;
-
+    padding: 10px;
 }
 section.onama{
     border: dashed orangered;
 } 
 section.kontaktirajte-nas{
-    border: solid rgb(236, 123, 142);
+    border: dashed yellow;
+    padding: 10px;
 }
