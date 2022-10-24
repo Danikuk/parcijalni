@@ -33,14 +33,8 @@ h2[id="Onama"]{
 section.djel{
     text-decoration: underline;
     padding: 15px;
-}
-[name*="še-dj"]{
-    font-weight: 700;
-}
-
-[class~="nas"]{
-       border-radius: 80%;
-       overflow: hidden;
+    border: dashed yellow;
+    padding: 10px;
 }
 [href]{
     font-style: italic;
@@ -56,14 +50,7 @@ section.djel{
     font-style: italic;
     color: rgb(26, 36, 7);
 }
-section.djel{
-    border: dashed yellow;
-    padding: 10px;
-}
+
 section.onama{
     border: dashed orangered;
 } 
-section.kontaktirajte-nas{
-    border: dashed yellow;
-    padding: 10px;
-}
